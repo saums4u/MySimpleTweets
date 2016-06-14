@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="560dpi"
+    format="7"
+    timestamp="459960185550856" >
+
+    <task
+        name="javac"
+        duration="131" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="5" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
+
+    <build timestamp="440219974866691" >
+        <artifact
+            location="/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="454949314626851" >
+        <artifact
+            location="/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="458243530833725" >
+        <artifact
+            location="/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="459960185550856" >
+        <artifact
+            location="/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

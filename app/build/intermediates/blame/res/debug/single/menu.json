@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/res/merged/debug/menu/menu_timeline.xml",
+        "source": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/src/main/res/menu/menu_timeline.xml"
+    },
+    {
+        "merged": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/src/main/res/menu/login.xml"
+    }
+]

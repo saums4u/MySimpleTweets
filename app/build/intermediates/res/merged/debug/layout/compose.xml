@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tweet"
+        android:id="@+id/btnTweet"
+        android:onClick="onTweetNow"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:nestedScrollingEnabled="true"
+        android:background="#27475b"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cancel"
+        android:id="@+id/btnCancel"
+        android:onClick="onCancel"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02"
+        android:nestedScrollingEnabled="true"
+        android:background="#f3f4f5"
+        android:layout_alignBottom="@+id/btnTweet"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="\@saumya69"
+        android:id="@+id/tvUser"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/btnCancel"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/ivProfile"
+        android:paddingLeft="10dp"
+        android:layout_toLeftOf="@+id/btnTweet"
+        android:layout_toStartOf="@+id/btnTweet" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/ivProfile"
+        android:background="#516196"
+        android:layout_alignBottom="@+id/tvUser"
+        android:layout_alignRight="@+id/btnCancel"
+        android:layout_alignEnd="@+id/btnCancel" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/etTweet"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ivProfile"
+        android:layout_alignStart="@+id/ivProfile"
+        android:hint="whats on your mind" />
+
+</RelativeLayout>

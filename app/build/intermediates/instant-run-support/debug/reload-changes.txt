@@ -1,0 +1,2 @@
+CHANGED,/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/codepath/apps/mysimpletweets/TwitterClient$override.class
+CHANGED,/Users/ssahu6/my_stuff/training/AndroidProject/week-4/MySimpleTweets/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
